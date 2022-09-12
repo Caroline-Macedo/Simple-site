@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Playfair+Display:wght@700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="menu container">
+        <i>Simple<span class="ponto">.</span></i>
+
+        <nav>
+            <ul>
+                <li><a href="#secao1">Seção 1</a></li>
+                <li><a href="#secao2">Seção 2</a></li>
+                <li><a href="#secao3">Seção 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="topo">
+        <div class="hero__content text-center container">
+            <h4>insira seu nome</h4>
+            <h1>Insira um título que vá causar impacto</h1>
+            <img class="hero__icon" src="assets/icon-hero.svg" alt="Icone para baixo">
+        </div>
+    </section>
+
+    <section class="sobre" id="secao1">
+        <article class="container">
+            <header class="sobre__header">
+                <h2 class="titulo text-center">Insira um título</h2>
+                <h3 class="subtitulo text-center">Insira uma descrição para as características 
+                do seu produto ou serviços </h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus scelerisque quam, id laoreet nulla facilisis a. Etiam pretium purus massa, sed pellentesque arcu tempor sed. Nullam vehicula eros quis quam pellentesque aliquam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus scelerisque quam, id laoreet nulla facilisis a. Etiam pretium purus massa, sed pellentesque arcu tempor sed. Nullam vehicula eros quis quam pellentesque aliquam.</p>
+        </article>
+    </section>
+
+    <section class="wow duas-colunas dark"id="secao2">
+        <article class="container">
+            <img class="img__duas-colunas" src="assets/img-stair.jpg" alt="Imagem de uma escada">
+            <h2 class="titulo">Insira um título</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur   adipiscing elit. Pellentesque finibus scelerisque quam, id laoreet nulla facilisis a. Etiam pretium purus massa, sed pellentesque arcu tempor sed. Nullam vehicula eros quis quam pellentesque aliquam. </p>
+            <a class="btn"href="">Saiba mais</a>
+         </article>
+    </section>
+
+    <section class="wow duas-colunas"id="secao3">
+        <article class="container">
+            <h2 class="titulo">Insira um título</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur   adipiscing elit. Pellentesque finibus scelerisque quam, id laoreet nulla facilisis a. Etiam pretium purus massa, sed pellentesque arcu tempor sed. Nullam vehicula eros quis quam pellentesque aliquam. </p>
+            <img class="img__duas-colunas" src="assets/img1.jpg" alt="Imagem de uma escada">  
+            <a class="btn"href="">Saiba mais</a> 
+         </article>
+    </section>
+
+    <hr class="container">
+
+    <footer class="container">
+        <span>Simples Templaite Layout - 2022</span>
+        <a class="btn" href="#topo">Voltar para o topo</a>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+
+</body>
+
+
+</html>
